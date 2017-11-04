@@ -1,0 +1,37 @@
+---
+name: mygoogledfp-example
+---
+
+# NOTE: this is example configuration, and should not be used in production or
+# testing because it will not work (this is not real banner informations)
+
+GoogleDfpSlotHelper:
+  enable_in_dev: false # if you wanna test banners in "dev" enviroment change to true
+  publisher_id: 12345678 # change to your Google DFP network code
+  layouts:
+    Page: # change to your Controller ClassName or leave it Page if you wanna apply same banners all around
+      div-gpt-ad-1234567890123-0: # An exact banner ID from Google DFP system
+        adUnitPath: /12345678/example_site_300x602 # Full path of the ad unit with the network code and ad unit code.
+        size: '[[300, 1], [300, 600], [300, 250]]' # An exact size of banner creative
+      div-gpt-ad-1234567890123-1:
+        alias: headerLandscape # human readable banner type, used in template for banner init
+        adUnitPath: /12345678/example_site_300x600 # Full path of the ad unit with the network code and ad unit code.
+        size: '[[300, 1], [300, 600], [300, 250]]' # An exact size of banner creative
+    HomePage:
+      div-gpt-ad-1234567890123-1:
+        alias: billboard
+        adUnitPath: /12345678/example_site_bb_nav
+        size: '[[1, 2], [1190, 250], [970, 250]]'
+      div-gpt-ad-1234567890123-2:
+        alias: floater
+        adUnitPath: /12345678/example_site_float
+        size: '[1, 1]'
+        outOfPage: true # if banner is "floater" or "wallpaper" type, change to "true"
+      div-gpt-ad-1234567890123-3:
+        alias: billboard
+        adUnitPath: /12345678/example_site_pb_1
+        size: '[[1190, 250], [970, 250], [1, 3]]'
+      div-gpt-ad-1234567890123-4:
+        alias: wallpaper
+        adUnitPath: /12345678/example_site_wp
+        outOfPage: true # if banner is "floater" or "wallpaper" type, change to "true"

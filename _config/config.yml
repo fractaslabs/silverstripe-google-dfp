@@ -1,0 +1,6 @@
+---
+name: google-dfp-config
+---
+ContentController:
+  extensions:
+    - GoogleDfpController
