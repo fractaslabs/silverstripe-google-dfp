@@ -23,7 +23,7 @@ GoogleDfpSlotHelper:
           size: '[[1], [300, 250]]' # An exact size of banner creative
           outOfPage: false # if type of banner is "floater" or "wallpaper", change to "true"
  ```
-  * Visit [mygoogledfp.yml.example](https://github.com/fractaslabs/silverstripe-google-dfp/_config/mygoogledfp.yml.example)
+  * Visit [mygoogledfp.yml.example](https://github.com/fractaslabs/silverstripe-google-dfp/blob/master/_config/mygoogledfp.yml.example)
   for more examples of banner usage
   * Run ?flush=all to update manifests
 
