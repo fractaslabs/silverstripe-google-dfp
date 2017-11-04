@@ -1,0 +1,21 @@
+{
+	"name": "fractaslabs/silverstripe-google-dfp",
+	"description": "Fast, configurable SilverStripe implementation of Google DoubleClick for Publishers (DFP)",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/fractaslabs/silverstripe-google-dfp/",
+	"keywords": ["silverstripe", "DoubleClick", "DoubleClick for Publishers", "ads"],
+	"license": "BSD-3-Clause",
+	"support": {
+  	"issues": "https://github.com/fractaslabs/silverstripe-google-dfp/issues"
+	},
+	"authors": [{
+		"name": "Fractas Labs",
+		"homepage": "https://github.com/fractaslabs/"
+	}],
+	"require": {
+		"silverstripe/framework": "~3"
+	},
+	"extra": {
+		"installer-name": "google-dfp"
+	}
+}
