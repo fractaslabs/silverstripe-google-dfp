@@ -37,7 +37,7 @@ GoogleDfpSlotHelper:
 
 
  ## Additional documentation
- * More comprehensive documentation can be [found here](https://github.com/fractaslabs/silverstripe-google-dfp/docs/en/index.md)
+ * More comprehensive documentation can be [found here](https://github.com/fractaslabs/silverstripe-google-dfp/blob/master/docs/en/index.md)
 
 
  ## Bugtracker
