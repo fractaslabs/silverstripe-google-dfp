@@ -1,4 +1,6 @@
 # SilverStripe Google DFP
+[![Build Status](https://travis-ci.org/fractaslabs/silverstripe-google-dfp.svg?branch=master)](https://travis-ci.org/fractaslabs/silverstripe-google-dfp)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-google-dfp/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-google-dfp/?branch=master)
 
 ## Overview
 An customizable SilverStripe module for Google DoubleClick for Publishers (DFP).
