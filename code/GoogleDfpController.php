@@ -5,6 +5,9 @@
  *
  *
  * @package SilverStripe-Google-DFP
+ * @copyright 2017 Fractas Labs
+ * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
+ * @link https://github.com/fractaslabs/silverstripe-google-dfp
  */
 class GoogleDfpController extends Extension
 {
