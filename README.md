@@ -1,6 +1,10 @@
 # SilverStripe Google DFP
 [![Build Status](https://travis-ci.org/fractaslabs/silverstripe-google-dfp.svg?branch=master)](https://travis-ci.org/fractaslabs/silverstripe-google-dfp)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-google-dfp/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-google-dfp/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/fractaslabs/silverstripe-googleanalytics/v/stable)](https://packagist.org/packages/fractaslabs/silverstripe-googleanalytics)
+[![Latest Unstable Version](https://poser.pugx.org/fractaslabs/silverstripe-googleanalytics/v/unstable)](https://packagist.org/packages/fractaslabs/silverstripe-googleanalytics)
+[![Total Downloads](https://poser.pugx.org/fractaslabs/silverstripe-googleanalytics/downloads)](https://packagist.org/packages/fractaslabs/silverstripe-googleanalytics)
+[![License](https://poser.pugx.org/fractaslabs/silverstripe-googleanalytics/license)](https://packagist.org/packages/fractaslabs/silverstripe-googleanalytics)
 
 ## Overview
 An customizable SilverStripe module for Google DoubleClick for Publishers (DFP).
@@ -15,7 +19,7 @@ An customizable SilverStripe module for Google DoubleClick for Publishers (DFP).
  ```
  composer require fractaslabs/silverstripe-google-dfp
  ```
-  * Add to your configuration:
+  * Add to your configuration YML file:
  ```yaml
  ---
  name: mygoogledfp
