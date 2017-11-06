@@ -65,7 +65,7 @@ class GoogleDfpSlotHelper extends Object
 
         $out = ArrayList::create();
         $controller = Controller::curr();
-        $dfpTargetArticle = $controller->ID;
+        $dfpTargetPage = $controller->ID;
         $dfpTargetCategory = $controller->Parent()->Title ? $controller->Parent()->Title : $controller->Title;
         $dfpTargetCategoryParent = $controller->Parent()->Parent()->Title ? $controller->Parent()->Parent()->Title : null;
 
