@@ -5,6 +5,9 @@
  *
  *
  * @package SilverStripe-Google-DFP
+ * @copyright 2017 Fractas Labs
+ * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
+ * @link https://github.com/fractaslabs/silverstripe-google-dfp
  */
 class GoogleDfpSlotHelper extends Object
 {
@@ -75,7 +78,7 @@ class GoogleDfpSlotHelper extends Object
                     'AdUnitPath' => isset($slot['adUnitPath']) ? $slot['adUnitPath'] : null,
                     'Size' => isset($slot['size']) ? $slot['size'] : null,
                     'OutOfPage' => isset($slot['outOfPage']) ? $slot['outOfPage'] : false,
-                    'DfpTargetArticle' => $dfpTargetArticle,
+                    'DfpTargetPage' => $dfpTargetPage,
                     'DfpTargetCategory' => $dfpTargetCategory,
                     'DfpTargetCategoryParent' => $dfpTargetCategoryParent,
                     'DfpTargetRos' => $key,
