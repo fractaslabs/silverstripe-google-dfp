@@ -1,5 +1,12 @@
 <?php
 
+namespace Fractas\GoogleDfp;
+
+use SilverStripe\Core\Extension;
+use SilverStripe\View\Requirements;
+
+use Fractas\GoogleDfp\GoogleDfpSlotHelper;
+
 /**
  * Google DFP Controller class.
  *

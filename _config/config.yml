@@ -1,6 +1,6 @@
 ---
 name: google-dfp-config
 ---
-ContentController:
+SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    - GoogleDfpController
+    - Fractas\GoogleDfp\GoogleDfpController

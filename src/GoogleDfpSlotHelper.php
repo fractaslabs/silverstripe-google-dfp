@@ -1,5 +1,17 @@
 <?php
 
+namespace Fractas\GoogleDfp;
+
+use SilverStripe\Core\Config\Config;
+use SilverStripe\Control\Director;
+use SilverStripe\ORM\ArrayList;
+use SilverStripe\View\ArrayData;
+use SilverStripe\Control\Controller;
+
+use SilverStripe\Core\Extensible;
+use SilverStripe\Core\Injector\Injectable;
+use SilverStripe\Core\Config\Configurable;
+
 /**
  * Google DFP Slot Helper class
  *
@@ -9,8 +21,12 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/fractaslabs/silverstripe-google-dfp
  */
-class GoogleDfpSlotHelper extends Object
+class GoogleDfpSlotHelper
 {
+    use Extensible;
+    use Injectable;
+    use Configurable;
+
     private static $id;
 
     private static $enable_in_dev = false;

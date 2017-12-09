@@ -5,11 +5,11 @@ name: mygoogledfp-example
 # NOTE: this is example configuration, and should not be used in production or
 # testing because it will not work (this is not real banner informations)
 
-GoogleDfpSlotHelper:
+Fractas\GoogleDfp\GoogleDfpSlotHelper:
   enable_in_dev: false # if you wanna test banners in "dev" enviroment change to true
   publisher_id: 12345678 # change to your Google DFP network code
   layouts:
-    Page: # change to your Controller ClassName or leave it Page if you wanna apply same banners all around
+    PageController: # change to your Controller ClassName or leave it PageController if you wanna apply same banners all around
       div-gpt-ad-1234567890123-0: # An exact banner ID from Google DFP system
         adUnitPath: /12345678/example_site_300x602 # Full path of the ad unit with the network code and ad unit code.
         size: '[[300, 1], [300, 600], [300, 250]]' # An exact size of banner creative
@@ -17,7 +17,7 @@ GoogleDfpSlotHelper:
         alias: headerLandscape # human readable banner type, used in template for banner init
         adUnitPath: /12345678/example_site_300x600 # Full path of the ad unit with the network code and ad unit code.
         size: '[[300, 1], [300, 600], [300, 250]]' # An exact size of banner creative
-    HomePage:
+    HomePageController:
       div-gpt-ad-1234567890123-1:
         alias: billboard
         adUnitPath: /12345678/example_site_bb_nav

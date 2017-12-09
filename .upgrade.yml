@@ -1,0 +1,3 @@
+mappings:
+  GoogleDfpController: Fractas\GoogleDfp\GoogleDfpController
+  GoogleDfpSlotHelper: Fractas\GoogleDfp\GoogleDfpSlotHelper

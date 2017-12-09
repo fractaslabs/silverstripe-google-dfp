@@ -11,24 +11,24 @@ An customizable SilverStripe module for Google DoubleClick for Publishers (DFP).
 
 
 ## Requirements
- * SilverStripe Framework 3+
+ * SilverStripe Framework 4+
 
 
 ## Installation
   * Recommended way to install this module is via Composer
  ```
- composer require fractaslabs/silverstripe-google-dfp
+ composer require "fractas/google-dfp" "2.x-dev"
  ```
   * Add to your configuration YML file:
  ```yaml
  ---
  name: mygoogledfp
  ---
-GoogleDfpSlotHelper:
+ Fractas\GoogleDfp\GoogleDfpSlotHelper:
   enable_in_dev: false # if you wanna test banners in "dev" environment change to true
   publisher_id: 12345678 # change to your Google DFP network code
     layouts:
-      Page: # change to your Controller ClassName or leave it Page if you wanna apply banners on SiteTree
+      PageController: # change to your Controller ClassName or leave it PageController if you wanna apply banners on SiteTree
         div-gpt-ad-123456789012-0: # An exact banner ID from Google DFP system
           alias: billboard # human readable banner type, used in template for banner init
           adUnitPath: /12345678/ad_unit_code # Full path of the ad unit with the network code and ad unit code.

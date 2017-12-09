@@ -3,7 +3,7 @@
 ## Installation
   * Recommended way to install this module is via Composer
  ```
- composer require fractaslabs/silverstripe-google-dfp
+ composer require fractas/google-dfp "2.x-dev"
  ```
 
 ## Configuration
@@ -12,7 +12,7 @@
  ---
  name: mygoogledfp
  ---
-GoogleDfpSlotHelper:
+Fractas\GoogleDfp\SlotHelper:
   enable_in_dev: false # if you wanna test banners in "dev" environment change to true
   publisher_id: 12345678 # change to your Google DFP network code
     layouts:
