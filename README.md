@@ -10,8 +10,19 @@
 An customizable SilverStripe module for Google DoubleClick for Publishers (DFP).
 
 
+## Maintainer Contacts
+- Milan Jelicanin [at] Fractas.com
+- Petar Simic [at] Fractas.com
+
+
 ## Requirements
  * SilverStripe Framework 4+
+
+
+## Version info
+The master branch of this module is currently aiming for SilverStripe 4.x compatibility
+
+- [SilverStripe 3.0+ compatible version](https://github.com/fractaslabs/silverstripe-google-dfp/tree/1.0.1)
 
 
 ## Installation
